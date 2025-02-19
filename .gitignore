@@ -171,3 +171,11 @@ cython_debug/
 .pypirc
 
 data/
+
+
+# ignore tests from data_augmentation
+video_data_augmentation/test_transformations.py
+
+video_data_augmentation/test_videos
+
+video_data_augmentation/test_videos_augmented
